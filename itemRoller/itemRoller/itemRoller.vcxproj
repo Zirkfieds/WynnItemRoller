@@ -139,12 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="conditionAnalysis.h" />
     <ClInclude Include="itemDBTools.h" />
     <ClInclude Include="itemRoller.h" />
     <ClInclude Include="itemStat.h" />
     <ClInclude Include="itemString.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="conditionAnalysis.cpp" />
     <ClCompile Include="itemRoller.cpp" />
     <ClCompile Include="itemRollerMain.cpp" />
     <ClCompile Include="itemStat.cpp" />

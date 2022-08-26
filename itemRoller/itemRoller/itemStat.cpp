@@ -62,7 +62,7 @@ int SingleStat::roundStat(double base, double roll) { // Rounding a single stat.
 		int ret;
 		double tmp1 = fmod(tmpStat, 0.5);
 		double tmp2 = fmod(tmpStat, 1.0);
-		if (fabs(tmp1) < 1e-3 && fabs(tmp2) >= 1e-3) { // Rounding down if -.5
+		if (fabs(tmp1) < 1e-4 && fabs(tmp2) >= 1e-4) { // Rounding down if -.5
 			ret = round(tmpStat) + 1;
 		}
 		else {
@@ -116,6 +116,8 @@ void initStatValueMap() { // Initialize Wynntils-style percentage analysis.
 #endif;
 
 void SingleStat::listStatProperties() { // Displaying detailed stat info.
+
+	// TODO: reformat this part later.
 
 #if RICH_PRESENCE
 	cout << "---------------------" << endl;

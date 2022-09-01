@@ -18,9 +18,6 @@
     <ClInclude Include="itemDBTools.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="itemRoller.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="itemStat.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -30,11 +27,11 @@
     <ClInclude Include="conditionAnalysis.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="WynnItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="itemRoller.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="itemRollerMain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -45,6 +42,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="conditionAnalysis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CompoundCondition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WynnItem.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

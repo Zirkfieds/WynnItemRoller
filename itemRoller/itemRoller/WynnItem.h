@@ -23,5 +23,6 @@ public:
 	bool displayItem(); // Display an item.
 
 	double getStat(string statName);
+	vector<SingleStat> getAllStats();
 
 };

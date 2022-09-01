@@ -89,6 +89,7 @@ bool SingleStat::isPositiveStat(double base) {
 }
 
 
+
 #if 0
 void initStatValueMap() { // Initialize Wynntils-style percentage analysis.
 	double highest, lowest;

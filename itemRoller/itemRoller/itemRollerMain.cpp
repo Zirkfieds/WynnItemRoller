@@ -1,4 +1,4 @@
-#include"itemRoller.h"
+#include"WynnItem.h"
 
 #include<conio.h>
 

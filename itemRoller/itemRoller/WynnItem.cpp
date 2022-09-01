@@ -1,4 +1,4 @@
-#include"itemRoller.h"
+#include"WynnItem.h"
 
 #include<sstream>
 
@@ -91,4 +91,8 @@ double WynnItem::getStat(string statName) {
 			return stat.getRoundedStat();
 		}
 	}
+}
+
+vector<SingleStat> WynnItem::getAllStats() {
+	return this->itemStats;
 }
